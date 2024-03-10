@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.Scope;
 
-@Import(FastsqlException.class) //给容器中放入指定类型的组件，组将的名字默认是类名
+//@Import(FastsqlException.class) //给容器中放入指定类型的组件，组将的名字默认是类名
 @SpringBootConfiguration //这是一个配置类，是springBoot中的配置类
 //@Configuration //这是一个配置类，代替以前的xml配置文件。配置类本身也是容器中的组件
 public class AppConfig {
