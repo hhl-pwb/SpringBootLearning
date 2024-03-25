@@ -3,11 +3,13 @@ package com.atguigu.boot303logging.controller;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Slf4j
 @Controller
 public class HelloController {
     @GetMapping("/h")
+    @ResponseBody
     public String hello(String a,String b){
         log.trace("trace 日志....");
         log.debug("debug 日志....");
