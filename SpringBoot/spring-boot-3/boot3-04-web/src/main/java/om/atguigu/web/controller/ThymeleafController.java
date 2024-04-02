@@ -13,7 +13,11 @@ public class ThymeleafController {
         // 模板的逻辑视图名
         // 物理视图 = 前缀 + 逻辑视图名 + 后置
         //真实地址 = classpath:/templates/wellcome.html
-        model.addAttribute("msg",name);
+//        model.addAttribute("msg",name);
+        String msg = "<span style='color:red'>"+"李四"+"</span>";
+        model.addAttribute("msg",msg);
+        //路径是动态的
+        model.addAttribute("imgUrl","3.jpg");
         return "wellcome";
     }
 }

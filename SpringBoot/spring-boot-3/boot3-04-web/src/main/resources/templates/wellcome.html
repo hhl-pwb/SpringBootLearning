@@ -5,6 +5,15 @@
         <title>Title</title>
     </head>
     <body>
-    <h1>哈哈：<span th:text="${msg}"></span></h1>
+        <h1>哈哈：<span th:text="${msg}"></span></h1>
+        <hr/>
+        th:text:替换标签体的内容:会转义；
+        th:text:替换标签体的内容；不会转义html标签，真正的显示html该有的样式
+        <h1 th:text="${msg}">哈哈</h1>
+        <h1 th:utext="${msg}">呵呵</h1>
+        <hr/>
+        th：任意html属性；动态替换任意属性的值
+        <img th:src="${imgUrl}"  style="width:300px;"/>
+<!--        <img src="1.jpg" style="width:300px;"/>-->
     </body>
 </html>
