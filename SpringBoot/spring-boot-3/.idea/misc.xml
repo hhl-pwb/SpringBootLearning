@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/boot3-03-logging/pom.xml" />
         <option value="$PROJECT_DIR$/boot3-04-web/pom.xml" />
         <option value="$PROJECT_DIR$/boot3-05-ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/boot3-06-feature/pom.xml" />
       </list>
     </option>
   </component>
