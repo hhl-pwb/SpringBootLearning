@@ -29,6 +29,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!--自定义starter-->
+		<dependency>
+			<groupId>com.atguigu</groupId>
+			<artifactId>boot3-08-robot-starter</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>

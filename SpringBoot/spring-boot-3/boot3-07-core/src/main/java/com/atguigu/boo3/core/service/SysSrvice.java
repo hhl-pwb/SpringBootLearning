@@ -2,7 +2,6 @@ package com.atguigu.boo3.core.service;
 
 import com.atguigu.boo3.core.entity.UserEntity;
 import com.atguigu.boo3.core.event.LoginSuccessEvent;
-import lombok.extern.java.Log;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
 

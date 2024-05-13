@@ -14,6 +14,7 @@
         <module name="boot3-07-core" />
         <module name="boot3-06-feature" />
         <module name="boot3-02-demo" />
+        <module name="boot3-08-robot-starter" />
       </profile>
     </annotationProcessing>
   </component>
@@ -26,6 +27,7 @@
       <module name="boot3-05-ssm" options="-parameters" />
       <module name="boot3-06-feature" options="-parameters" />
       <module name="boot3-07-core" options="-parameters" />
+      <module name="boot3-08-robot-starter" options="-parameters" />
     </option>
   </component>
 </project>
