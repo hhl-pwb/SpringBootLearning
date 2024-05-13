@@ -5,6 +5,7 @@ import com.atguigu.boot3.feature.bean.Dog;
 import com.atguigu.boot3.feature.bean.Pig;
 import com.atguigu.boot3.feature.bean.Sheep;
 import com.atguigu.boot3.starter.robot.RobotConfiguration;
+import com.atguigu.boot3.starter.robot.annotation.EnableRobot;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.Banner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -34,7 +35,8 @@ import org.springframework.context.annotation.Import;
  *
  * 			主配置和激活配置都生效，优先以激活的配置为准
  */
-@Import(RobotConfiguration.class)
+//@Import(RobotConfiguration.class)
+@EnableRobot
 @Slf4j
 @SpringBootApplication //主程序类
 public class Boot306FeatureApplication {
