@@ -11,6 +11,7 @@
         <module name="boot3-04-web" />
         <module name="boot3-05-ssm" />
         <module name="boot3-01-demo" />
+        <module name="boot3-11-rpc" />
         <module name="boot3-03-logging" />
         <module name="boot3-07-core" />
         <module name="boot3-06-feature" />
@@ -34,6 +35,7 @@
       <module name="boot3-07-core" options="-parameters" />
       <module name="boot3-08-robot-starter" options="-parameters" />
       <module name="boot3-09-redis" options="-parameters" />
+      <module name="boot3-11-rpc" options="-parameters" />
     </option>
   </component>
 </project>
