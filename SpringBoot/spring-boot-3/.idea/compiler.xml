@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot3-09-redis" />
+        <module name="boot3-12-message" />
+        <module name="boot3-13-security" />
         <module name="boot3-04-web" />
         <module name="boot3-05-ssm" />
         <module name="boot3-01-demo" />
@@ -36,6 +38,8 @@
       <module name="boot3-08-robot-starter" options="-parameters" />
       <module name="boot3-09-redis" options="-parameters" />
       <module name="boot3-11-rpc" options="-parameters" />
+      <module name="boot3-12-message" options="-parameters" />
+      <module name="boot3-13-security" options="-parameters" />
     </option>
   </component>
 </project>
